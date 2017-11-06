@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite1]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.liangxin.CalcTest">
+        <methods>
+          <include name="f4"/>
+          <include name="f3"/>
+        </methods>
+      </class> <!-- com.liangxin.CalcTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suite1] -->
